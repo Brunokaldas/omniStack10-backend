@@ -3,9 +3,9 @@ const mongoose = require("mongoose");
 const routes = require("./routes");
 
 const app = express();
-
+//change to your username and password in you database;
 mongoose.connect(
-  "mongodb+srv://brunokaldas:teodoro123@cluster0-esroc.mongodb.net/test?retryWrites=true&w=majority",
+  "mongodb+srv://username:password@cluster0-esroc.mongodb.net/test?retryWrites=true&w=majority",
   { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true }
 );
 
